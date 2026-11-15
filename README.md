@@ -1,16 +1,22 @@
-# React + Vite
+# Studio Ghibli Film List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+A webpage that fetches an array of studio ghibli movies, and allows you to search through them.  
 
-Currently, two official plugins are available:
+## Technologies Used
+Vite + React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+Fetches list array of films from api endpoint. Functional search, which filters using the typed input. Also has functional error handling, and loading state.
 
-## React Compiler
+## Installation and Setup
+Use code viewer of choice, clone the GitHub repository, navigate to the project folder and download npm dependencies using npm install on console, then run using on console npm run dev.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to Use
+Load it on your browser, and either scroll through full list or type in the search bar and find a specific film.
 
-## Expanding the ESLint configuration
+## Known Limitations
+No sorting method yet added. 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What I Learned
+I learned how to use a nested ternary in this exercise. I also learned how to use states for loading state handling and error handling. I further reinforced using the useEffect hook for synchronizing react with an api. Reinforced using a fetch request with try,catch,and finally code blocks. Also reinforced rendering logic that handled filtering of film array.
